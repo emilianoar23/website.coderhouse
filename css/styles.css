@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
+
+/*--------- RESET ---------*/
+*{
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+
+}
+body{
+    background-image: url("../img/background.jpg");
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+/*--------- HEADER ---------*/
+header{
+    background: #2f34352c;
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: auto;
+}
+
+header h1 {
+    color: rgb(53, 52, 52);
+    font-weight: lighter;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li{
+    display: flex;
+    flex-direction: column;
+}
+
+header a{
+    text-decoration: none;
+	padding: 0px 30px;
+	font-size: 20px;
+    font-weight: bold;
+    color: rgb(53, 52, 52);
+}
+
+header .logo{
+    font-size: 20px;
+    padding: 10px 20px 10px 50px;
+}
+
+header span{
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: rgb(159, 144, 90);
+}
+
+
+/*--------- MAIN ---------*/
+.hero{
+    font-size: 25px;
+    margin: 70px;
+    text-align: center;
+    color: rgb(53, 52, 52);
+}
+
+.servicios{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.servicios div img{
+    width: 60px;
+}
+
+.servicios div{
+    width: 100vh;
+    margin: 70px;
+    padding: 20px;
+    border-radius: 15px;
+    color: rgb(53, 52, 52);
+    background-color: rgba(0, 0, 0, 0.096);
+}
+
+.servicios div a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(235, 234, 234);
+    background-color: rgba(79, 79, 79, 0.812);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+.servicios div p{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+/*--------- CONTACTO ---------*/
+.heroContacto{
+    font-size: 60px;
+    margin: 70px;
+    text-align: center;
+    color: rgb(53, 52, 52);
+}
+
+.contactoSubtitulo{
+    font-size: 35px;
+    margin: 70px;
+    text-align: center;
+    color: rgb(53, 52, 52);   
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 600px;
+    min-width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px;
+    font-size: large;
+    background-color:#2f34352c;
+}
+
+form input{
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 75%;
+    padding-left: 20px;
+    color: rgb(53, 52, 52);
+    border: 2px solid;
+    border-radius: 2px;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+}
+
+form textarea{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    height: 40px;
+    min-width: 450px;
+    min-height: 200px;
+    padding-left: 10px;
+    color: rgb(53, 52, 52);
+    border: 2px solid;
+    border-radius: 2px;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+}
+
+/*--------- DESARROLLO WEB ---------*/
+.heroDesarrollo{
+    font-size: 60px;
+    margin: 70px;
+    text-align: center;
+    color: rgb(53, 52, 52);
+}
+
+.desarolloParrafo{
+    font-size: 40px;
+    margin: 40px;
+    text-align: center;
+    color: rgb(53, 52, 52);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desarolloParrafo img{
+    width: 35%;
+}
+
+/*--------- DISEÑO WEB ---------*/
+.heroDiseno{
+    font-size: 60px;
+    margin: 70px;
+    text-align: center;
+    color: rgb(53, 52, 52);
+}
+
+.disenoSubtitulo{
+    font-size: 40px;
+    margin: 40px;
+    text-align: center;
+    color: rgb(53, 52, 52);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disenoSubtitulo img{
+    width: 25%;
+}
+
+/*--------- FOTOGRAFÍA ---------*/
+.heroFotografia{
+    font-size: 60px;
+    margin: 70px;
+    text-align: center;
+    color: rgb(53, 52, 52);
+}
+
+.fotoparrafo{
+    font-size: 40px;
+    margin: 40px;
+    text-align: center;
+    color: rgb(53, 52, 52);
+    display: flex;
+    justify-content: center;
+}
+
+.fotoparrafo img{
+    width: 20%;
+}
+
+/* GALERIA CON GRID */
+.gridGaleria{
+    border: solid 3px rgb(0, 0, 0, 0);
+    margin: 5px;
+    display: grid; /* HABILITAR EL GRID */
+    grid-template-rows: 100px 100px 100px; /* DECLARAR FILAS */
+
+}
+
+/*--------- SOBRE MÍ ---------*/
+.heroSaludo{
+    text-align: center;
+    font-size: 60px;
+    margin: 70px;
+    color: rgb(53, 52, 52);
+}
+
+.presentacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentacion2{
+    font-size: 30px;
+    margin: 70px;
+    color: rgb(53, 52, 52);
+}
+
+.fotoemi{
+    display: flex;
+    justify-content: flex-end;
+    width: 25%;
+}
+
+/*--------- FOOTER ---------*/
+footer{
+    width: 100%;
+
+    background: #2f34352c;
+    color: rgb(53, 52, 52);
+}
+
+.redesSociales{
+    display: flex;
+    justify-content: center;
+
+}
+.redesSociales img{
+    display: inline-flex; 
+    padding: 20px 0.9px 0px 20px;
+    
+}
+
+.derechos{
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+/*--------- RESPONSIVE ---------*/
+
+            /*MOBILE*/
+@media screen and (max-width:350px){
+
+header{
+    flex-direction: column;
+    }
+
+nav{
+    padding: 10px 0px;
+    }
+
+.servicios{
+    flex-direction: column;
+    justify-content: first baseline;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
