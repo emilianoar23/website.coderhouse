@@ -81,12 +81,18 @@ nav ul li a:hover{
 }
 
 .servicios div{
-    width: 100vh;
+    height: auto;
+    width: 100%;
     margin: 70px;
     padding: 20px;
     border-radius: 15px;
     color: rgb(53, 52, 52);
     background-color: rgba(0, 0, 0, 0.096);
+}
+
+.servicios div p{
+    margin-bottom: 15px;
+    font-size: 30px;
 }
 
 .servicios div a{
@@ -98,10 +104,6 @@ nav ul li a:hover{
     border-radius: 5px;
 }
 
-.servicios div p{
-    margin-bottom: 15px;
-    font-size: 30px;
-}
 
 /*--------- CONTACTO ---------*/
 .heroContacto{
@@ -304,11 +306,15 @@ header{
 
 .logo h1{
     text-align: center;
-    font-size: 35px;
+    font-size: 28px;
 }
 
 nav{
     padding: 10px 0px;
+}
+
+nav ul li a{
+    font-size: 15px;
 }
 
 .hero{
@@ -316,25 +322,15 @@ nav{
     font-size: 20px;
 }
 
-div .servicios{
-    justify-content: center;
-
+.servicios{
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.servicios div a{
+    font-size: 25px;
 }
 
-
-
-
-
+}
