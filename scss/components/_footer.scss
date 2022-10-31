@@ -1,0 +1,18 @@
+footer {
+    width: 100%;
+    background: #2f34352c;
+    color: rgb(53, 52, 52);
+    .redesSociales {
+        display: flex;
+        justify-content: center;
+        img {
+            display: inline-flex;
+            padding: 20px 0.9px 0px 20px;
+        }
+    }
+    h4 {
+        font-size: 20px;
+        padding: 15px;
+        text-align: center;
+    }
+}

@@ -20,16 +20,20 @@ body {
 header {
     background: #2f34352c;
     display: flex;
-    min-height: 70px;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    padding: auto;
-    z-index: 1;
 }
 
 header h1 {
     color: rgb(53, 52, 52);
     font-weight: lighter;
+}
+
+header .logo {
+    font-size: 20px;
+    padding: 10px 20px 10px 50px;
 }
 
 header nav ul {
@@ -45,11 +49,6 @@ header nav ul li a {
     color: rgb(53, 52, 52);
 }
 
-header .logo {
-    font-size: 20px;
-    padding: 10px 20px 10px 50px;
-}
-
 header span {
     font-weight: bold;
 }
@@ -60,36 +59,37 @@ nav ul li a:hover {
 
 
 /*--------- MAIN ---------*/
-.hero {
-    font-size: 25px;
-    margin: 70px;
+.hero h2{
+    font-size: 60px;
+    margin: 150px;
     text-align: center;
     color: rgb(53, 52, 52);
 }
 
 .servicios {
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
-}
 
-.servicios div img {
-    width: 60px;
+
 }
 
 .servicios div {
     height: auto;
     width: 100%;
-    margin: 70px;
+    margin: 30px;
     padding: 20px;
     border-radius: 15px;
     color: rgb(53, 52, 52);
     background-color: rgba(0, 0, 0, 0.096);
 }
 
+.iconos div img{
+    justify-content: center;
+    align-items: center;
+}
+
 .servicios div p {
     margin-bottom: 15px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .servicios div a {
@@ -192,7 +192,7 @@ form textarea {
 /*--------- DISEÑO WEB ---------*/
 .heroDiseno {
     font-size: 60px;
-    margin: 70px;
+    margin: 30px;
     text-align: center;
     color: rgb(53, 52, 52);
 }
@@ -200,7 +200,6 @@ form textarea {
 .disenoSubtitulo {
     font-size: 40px;
     margin: 40px;
-    text-align: center;
     color: rgb(53, 52, 52);
     display: flex;
     justify-content: center;
@@ -276,7 +275,7 @@ form textarea {
 .heroSaludo {
     text-align: center;
     font-size: 60px;
-    margin: 70px;
+    margin: 50px;
     color: rgb(53, 52, 52);
 }
 
@@ -326,15 +325,14 @@ footer {
 /*--------- RESPONSIVE ---------*/
 
 /*MOBILE*/
-/*@media screen and (min-width:320px){
+@media screen and (min-width:320px){
 
 header{
     flex-direction: column;
 }
 
-.logo h1{
-    text-align: center;
-    font-size: 28px;
+header .logo{
+    padding: 1rem 2rem;
 }
 
 nav{
@@ -342,16 +340,15 @@ nav{
 }
 
 header nav ul li a{
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .hero{
-    text-align: center;
-    font-size: 18px;
+    font-size: 10px;
+
 }
 
 .servicios {
-    margin: -25px;
     flex-direction: column;
     align-items: center;
 }
@@ -363,7 +360,7 @@ header nav ul li a{
 }
 
             /*TABLETS*/
-/*@media screen and (min-width:720px){
+@media screen and (min-width:765px){
 
 header nav ul li a{
     font-size: 18px;

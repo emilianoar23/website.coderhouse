@@ -1,0 +1,23 @@
+section {
+    .heroDiseno {
+        font-size: 60px;
+        margin: 30px;
+        text-align: center;
+        color: rgb(53, 52, 52);
+    }
+}
+
+section {
+    .disenoSubtitulo {
+        font-size: 40px;
+        margin: 90px;
+        padding: 40px;
+        color: rgb(53, 52, 52);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 25%;
+        }
+    }    
+}

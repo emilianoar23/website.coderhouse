@@ -1,0 +1,22 @@
+section {
+    .heroSaludo {
+        text-align: center;
+        font-size: 60px;
+        margin: 50px;
+        color: rgb(53, 52, 52);
+    }
+    .presentacion {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .presentacion2 {
+            font-size: 40px;
+            margin: 70px;
+            color: rgb(53, 52, 52);
+        }
+        img {
+            justify-content: flex-end;
+            width: 20%;
+        }
+    }
+}
