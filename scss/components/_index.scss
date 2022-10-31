@@ -29,13 +29,15 @@ section {
                 text-align: center;
             }
             p {
-                margin-bottom: 15px;
+                margin: 18px;
+                margin-bottom: 20px;
                 font-size: 1.2rem;
             }
             a {
                 display: flex;
                 text-decoration: none;
                 align-self: center;
+                align-content: flex-end;
                 font-size: 1.5rem;
                 color: rgb(235, 234, 234);
                 background-color: rgba(79, 79, 79, 0.812);
