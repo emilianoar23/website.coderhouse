@@ -114,6 +114,7 @@ section .heroDesarrollo {
   color: #353434; }
 
 section .desarolloParrafo {
+  height: 55vh;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -212,6 +213,8 @@ section .hero h2 {
 section .servicios {
   display: flex; }
   section .servicios div {
+    display: flex;
+    flex-direction: column;
     height: auto;
     width: 100%;
     margin: 30px;
@@ -219,17 +222,19 @@ section .servicios {
     border-radius: 15px;
     color: #353434;
     background-color: rgba(0, 0, 0, 0.096); }
-    section .servicios div .iconos img {
-      align-items: center; }
-      section .servicios div .iconos img h3 {
-        text-align: center; }
-        section .servicios div .iconos img h3 p {
-          margin-bottom: 15px;
-          font-size: 3.2rem; }
-          section .servicios div .iconos img h3 p a {
-            text-decoration: none;
-            font-size: 2rem;
-            color: #ebeaea;
-            background-color: rgba(79, 79, 79, 0.812);
-            padding: 5px 10px 5px 10px;
-            border-radius: 5px; }
+    section .servicios div img {
+      align-self: center; }
+    section .servicios div h3 {
+      text-align: center; }
+    section .servicios div p {
+      margin-bottom: 15px;
+      font-size: 1.2rem; }
+    section .servicios div a {
+      display: flex;
+      text-decoration: none;
+      align-self: center;
+      font-size: 1.5rem;
+      color: #ebeaea;
+      background-color: rgba(79, 79, 79, 0.812);
+      padding: 5px 10px 5px 10px;
+      border-radius: 5px; }

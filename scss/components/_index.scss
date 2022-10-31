@@ -12,7 +12,9 @@ section{
 section {
     .servicios {
         display: flex;
-        div {
+        div {            
+            display: flex;
+            flex-direction: column;
             height: auto;
             width: 100%;
             margin: 30px;
@@ -20,26 +22,28 @@ section {
             border-radius: 15px;
             color: rgb(53, 52, 52);
             background-color: rgba(0, 0, 0, 0.096);
-            .iconos {
-                img {
-                    align-items: center;
-                    h3 {
-                        text-align: center;
-                        p {
-                            margin-bottom: 15px;
-                            font-size: 3.2rem;
-                            a {
-                                text-decoration: none;
-                                font-size: 2rem;
-                                color: rgb(235, 234, 234);
-                                background-color: rgba(79, 79, 79, 0.812);
-                                padding: 5px 10px 5px 10px;
-                                border-radius: 5px;
-                            }
-                        }
-                    }
+            img {
+                align-self: center;
                 }
+            h3 {
+                text-align: center;
+            }
+            p {
+                margin-bottom: 15px;
+                font-size: 1.2rem;
+            }
+            a {
+                display: flex;
+                text-decoration: none;
+                align-self: center;
+                font-size: 1.5rem;
+                color: rgb(235, 234, 234);
+                background-color: rgba(79, 79, 79, 0.812);
+                padding: 5px 10px 5px 10px;
+                border-radius: 5px;
             }
         }
     }
 }
+
+
