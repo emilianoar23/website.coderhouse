@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap");
 * {
   margin: 0;
@@ -25,7 +26,10 @@ body {
   .servicios {
     flex-direction: column;
     align-items: center;
-    margin: 30px; } }
+    margin: 30px; }
+  /*--------- SOBRE MÍ ---------*/
+  .presentacion h3 {
+    font-size: 10px; } }
 
 header {
   background: #2f34352c;
@@ -216,7 +220,7 @@ section .presentacion {
   display: flex;
   justify-content: center;
   align-items: center; }
-  section .presentacion .presentacion2 {
+  section .presentacion h3 {
     font-size: 40px;
     margin: 70px;
     color: #353434; }
