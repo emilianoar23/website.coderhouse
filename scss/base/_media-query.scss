@@ -1,0 +1,27 @@
+@media screen and (max-width:350px){
+
+    header{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    
+
+    header nav ul{
+        padding: 1px;
+        margin: -35px;
+    }
+
+    .hero h2 {
+        font-size: 40px;
+        margin: 20px;
+        padding: 30px; 
+    }
+
+    .servicios {
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+    }
+
+
+}

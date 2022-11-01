@@ -11,15 +11,31 @@ body {
   flex-direction: column;
   min-height: 100vh; }
 
+@media screen and (max-width: 350px) {
+  header {
+    flex-direction: column;
+    margin-bottom: 20px; }
+  header nav ul {
+    padding: 1px;
+    margin: -35px; }
+  .hero h2 {
+    font-size: 40px;
+    margin: 20px;
+    padding: 30px; }
+  .servicios {
+    flex-direction: column;
+    align-items: center;
+    margin: 30px; } }
+
 header {
   background: #2f34352c;
   display: flex;
-  min-height: 70px;
+  height: 100px;
   justify-content: space-between;
   align-items: center; }
   header .logo {
     font-size: 30px;
-    padding: 10px 20px 10px 50px; }
+    padding: 1rem 2rem; }
   header h1 {
     color: #353434;
     font-weight: lighter; }
@@ -30,8 +46,8 @@ header {
     list-style: none; }
     header nav ul li a {
       text-decoration: none;
-      padding: 0px 30px;
-      font-size: 20px;
+      padding: 1rem 2rem;
+      font-size: 18px;
       font-weight: bold;
       color: #353434; }
       header nav ul li a:hover {
@@ -50,7 +66,8 @@ footer {
   footer h4 {
     font-size: 20px;
     padding: 15px;
-    text-align: center; }
+    text-align: center;
+    font-weight: bold; }
 
 section h2 {
   font-size: 60px;
@@ -90,22 +107,23 @@ section .formulario {
       border-bottom-right-radius: 10px;
       font-size: 1rem;
       outline: none; }
-      section .formulario form input textarea {
-        display: flex;
-        justify-content: center;
-        margin: 40px;
-        height: 40px;
-        min-width: 450px;
-        min-height: 200px;
-        padding-left: 10px;
-        color: #353434;
-        border: 2px solid;
-        border-radius: 2px;
-        background-color: transparent;
-        border-top-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        font-size: 1rem;
-        outline: none; }
+    section .formulario form textarea {
+      display: flex;
+      justify-content: center;
+      margin: 40px;
+      height: 40px;
+      min-width: 450px;
+      min-height: 200px;
+      padding-left: 10px;
+      color: #353434;
+      border: 2px solid;
+      border-radius: 2px;
+      background-color: transparent;
+      border-top-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      font-size: 1rem;
+      outline: none;
+      resize: none; }
 
 section .heroDesarrollo {
   font-size: 60px;
@@ -117,11 +135,12 @@ section .desarolloParrafo {
   height: 56vh;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 100px; }
   section .desarolloParrafo img {
     width: 25%; }
   section .desarolloParrafo h3 {
-    font-size: 40px;
+    font-size: 35px;
     margin: 40px;
     color: #353434; }
 
@@ -133,7 +152,7 @@ section .heroDiseno {
 
 section .disenoSubtitulo {
   font-size: 40px;
-  margin: 90px;
+  margin: 60px;
   padding: 40px;
   color: #353434;
   display: flex;
@@ -148,18 +167,20 @@ section h2 .heroFotografia {
   text-align: center;
   color: #353434; }
 
-section .fotoparrafo img {
-  width: 20%; }
-
-section .fotoparrafo h4 {
-  font-size: 40px;
-  margin: 40px;
-  text-align: center;
-  color: #353434;
+section .fotoparrafo {
   display: flex;
-  flex-wrap: nowrap;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  padding-bottom: 100px; }
+  section .fotoparrafo img {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 25%;
+    margin: 15px; }
+  section .fotoparrafo h4 {
+    font-size: 35px;
+    margin: 40px;
+    color: #353434; }
 
 section .gridGaleria {
   display: grid;
@@ -204,7 +225,7 @@ section .presentacion {
     width: 20%; }
 
 section .hero h2 {
-  font-size: 60px;
+  font-size: 2rem;
   margin: 150px;
   text-align: center;
   color: #353434; }

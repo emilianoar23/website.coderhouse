@@ -1,15 +1,17 @@
+@import "../base/variables";
+
 header {
-    background: #2f34352c;
+    background: $color-fondo;
     display: flex;
-    min-height: 70px;
+    height: 100px;
     justify-content: space-between;
     align-items: center;
     .logo {
         font-size: 30px;
-        padding: 10px 20px 10px 50px;
+        padding: 1rem 2rem;
     }
     h1 {
-        color: rgb(53, 52, 52);
+        color: $color-letra;
         font-weight: lighter;
         span {
             font-weight: bold;
@@ -22,10 +24,10 @@ header {
             li {
                 a {
                     text-decoration: none;
-                    padding: 0px 30px;
-                    font-size: 20px;
+                    padding: 1rem 2rem;
+                    font-size: 18px;
                     font-weight: bold;
-                    color: rgb(53, 52, 52);
+                    color: $color-letra;
                     &:hover {
                         color: rgb(159, 144, 90);
                     }

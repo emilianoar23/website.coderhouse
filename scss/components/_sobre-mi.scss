@@ -1,9 +1,11 @@
+@import "../base/variables";
+
 section {
     .heroSaludo {
         text-align: center;
         font-size: 60px;
         margin: 50px;
-        color: rgb(53, 52, 52);
+        color: $color-letra;
     }
     .presentacion {
         display: flex;
@@ -12,7 +14,7 @@ section {
         .presentacion2 {
             font-size: 40px;
             margin: 70px;
-            color: rgb(53, 52, 52);
+            color: $color-letra;
         }
         img {
             justify-content: flex-end;

@@ -1,7 +1,9 @@
+@import "../base/variables";
+
 footer {
     width: 100%;
-    background: #2f34352c;
-    color: rgb(53, 52, 52);
+    background: $color-fondo;
+    color: $color-letra;
     .redesSociales {
         display: flex;
         justify-content: center;
@@ -14,5 +16,6 @@ footer {
         font-size: 20px;
         padding: 15px;
         text-align: center;
+        font-weight: bold;
     }
 }

@@ -1,10 +1,12 @@
+@import "../base/variables";
+
 section{
     .hero {
         h2{
-            font-size: 60px;
+            font-size: 2rem;
             margin: 150px;
             text-align: center;
-            color: rgb(53, 52, 52);
+            color: $color-letra;
         }
     }
 }
@@ -20,7 +22,7 @@ section {
             margin: 30px;
             padding: 20px;
             border-radius: 15px;
-            color: rgb(53, 52, 52);
+            color: $color-letra;
             background-color: rgba(0, 0, 0, 0.096);
             img {
                 align-self: center;
