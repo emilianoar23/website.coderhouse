@@ -12,25 +12,6 @@ body {
   flex-direction: column;
   min-height: 100vh; }
 
-@media screen and (max-width: 350px) {
-  header {
-    flex-direction: column;
-    margin-bottom: 20px; }
-  header nav ul {
-    padding: 1px;
-    margin: -35px; }
-  .hero h2 {
-    font-size: 40px;
-    margin: 20px;
-    padding: 30px; }
-  .servicios {
-    flex-direction: column;
-    align-items: center;
-    margin: 30px; }
-  /*--------- SOBRE MÍ ---------*/
-  .presentacion h3 {
-    font-size: 10px; } }
-
 header {
   background: #2f34352c;
   display: flex;
@@ -264,3 +245,76 @@ section .servicios {
       background-color: rgba(79, 79, 79, 0.812);
       padding: 5px 10px 5px 10px;
       border-radius: 5px; }
+
+@media screen and (max-width: 320px) {
+  header {
+    flex-direction: column;
+    margin-bottom: 10px; }
+  header .logo h3 {
+    font-size: 20px; }
+  header nav ul li a {
+    padding: 20px;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center; }
+  .hero h2 {
+    font-size: 30px;
+    margin: -4px;
+    padding: 30px; }
+  .servicios {
+    flex-direction: column;
+    align-items: center;
+    margin: 30px; }
+  footer h4 {
+    font-size: 15px; }
+  /*--------- SOBRE MÍ ---------*/
+  section .heroSaludo {
+    font-size: 35px;
+    margin: 0px;
+    padding: 30px; }
+  section .presentacion {
+    flex-direction: column; }
+  section .presentacion h3 {
+    font-size: 20px;
+    margin: 20px; }
+  section .presentacion img {
+    width: 40%;
+    align-self: flex-end; }
+  /*--------- CONTACTO ---------*/
+  section h2 {
+    font-size: 30px;
+    margin: 40px; }
+  section p {
+    font-size: 30px;
+    margin: 40px; }
+  section .formulario form textarea {
+    margin: 20px 0px 20px;
+    min-width: 250px; }
+  /*--------- DESARROLLO ---------*/
+  section .heroDesarrollo {
+    font-size: 30px;
+    margin: 40px; }
+  section .desarolloParrafo img {
+    width: 60%;
+    align-self: center;
+    margin-top: 100px; }
+  section .desarolloParrafo h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 30px; }
+  section .desarolloParrafo {
+    flex-direction: column; }
+  /*--------- DISEÑO ---------*/
+  section .heroDiseno {
+    font-size: 30px;
+    margin: 30px; }
+  section .disenoSubtitulo {
+    font-size: 20px;
+    text-align: center;
+    margin: 30px; }
+  section .disenoSubtitulo img {
+    width: 100%;
+    align-self: center;
+    margin-top: 10px; }
+  section .disenoSubtitulo {
+    flex-direction: column-reverse; } }
