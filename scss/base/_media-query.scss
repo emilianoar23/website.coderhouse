@@ -1,4 +1,4 @@
-@media screen and (max-width:350px){
+@media screen and (max-width:400px){
 
     header{
         flex-direction: column;
@@ -9,11 +9,15 @@
         font-size: 20px;
     }
     
+    header nav ul {
+        align-items: center;
+        margin: -30px;
+        padding: 0;
+    }
+
     header nav ul li a {
         padding: 20px;
         font-size: 14px;
-        justify-content: center;
-        align-items: center;
     }
 
     .hero h2 {
@@ -63,7 +67,6 @@
     }
 
     section .formulario form textarea {
-        margin: 20px 0px 20px;
         min-width: 250px;
     }
 /*--------- DESARROLLO ---------*/

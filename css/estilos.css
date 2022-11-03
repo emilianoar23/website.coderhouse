@@ -246,17 +246,19 @@ section .servicios {
       padding: 5px 10px 5px 10px;
       border-radius: 5px; }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
   header {
     flex-direction: column;
     margin-bottom: 10px; }
   header .logo h3 {
     font-size: 20px; }
+  header nav ul {
+    align-items: center;
+    margin: -30px;
+    padding: 0; }
   header nav ul li a {
     padding: 20px;
-    font-size: 14px;
-    justify-content: center;
-    align-items: center; }
+    font-size: 14px; }
   .hero h2 {
     font-size: 30px;
     margin: 0px;
@@ -288,7 +290,6 @@ section .servicios {
     font-size: 25px;
     margin: 40px; }
   section .formulario form textarea {
-    margin: 20px 0px 20px;
     min-width: 250px; }
   /*--------- DESARROLLO ---------*/
   section .heroDesarrollo {
