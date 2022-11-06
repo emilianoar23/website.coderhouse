@@ -3,12 +3,13 @@
 header {
     background: $color-fondo;
     display: flex;
-    height: 100px;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    height: 100px;
     .logo {
         font-size: 30px;
-        padding: 1rem 2rem;
+        padding: 2rem;
+        margin: 0;
     }
     h1 {
         color: $color-letra;
@@ -18,13 +19,16 @@ header {
         }
     }
     nav {
+        justify-content: center;
         ul {
             display: flex;
             list-style: none;
+
+            align-self: center;
             li {
                 a {
                     text-decoration: none;
-                    padding: 1rem 2rem;
+                    padding: 30px;
                     font-size: 18px;
                     font-weight: bold;
                     color: $color-letra;

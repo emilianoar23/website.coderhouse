@@ -1,4 +1,275 @@
-@media screen and (max-width:400px){
+
+@media screen and (max-width:710px){
+
+    header{
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+    
+    header .logo{
+        padding: 10px;
+    }
+
+    header nav{
+        flex-direction: initial;
+    }
+    header nav ul {
+        align-items: center;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    header nav ul li a {
+        margin: 10px;
+        padding: 5px;
+        font-size: 16px;
+    }
+
+
+    .hero h2 {
+        font-size: 30px;
+        margin: 0px;
+        padding: 30px; 
+    }
+
+    .servicios {
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+    }
+/*--------- CONTACTO ---------*/
+    section h2 {
+        font-size: 30px;
+        margin: 40px;
+    }
+
+    section p {
+        font-size: 25px;
+        margin: 40px;
+    }
+
+    section .formulario form textarea {
+        min-width: 250px;
+    }
+/*--------- DESARROLLO ---------*/
+    section .heroDesarrollo {
+        font-size: 40px;
+        margin: 40px;
+    }
+
+    section .desarolloParrafo {
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+
+    section .desarolloParrafo img {
+        width: 60%;
+        align-self: center;
+        margin-top: 40px;
+    }
+
+    section .desarolloParrafo h3 {
+        font-size: 20px;
+        text-align: center;
+        margin: 30px;
+    }
+
+/*--------- DISEÑO ---------*/
+    section .heroDiseno {
+        font-size: 30px;
+        margin: 30px 0px -30px;
+    }
+
+    section .disenoSubtitulo {
+        font-size: 20px;
+        text-align: center;
+        margin: 30px;
+    }
+
+    section .disenoSubtitulo img {
+        width: 100%;
+        align-self: center;
+        margin-bottom: 10px;
+    }
+
+    section .disenoSubtitulo {
+        flex-direction: column-reverse;
+    }
+/*--------- FOTOGRAFÍA ---------*/
+    section .heroFotografia {
+        font-size: 30px;
+        margin: 40px;
+    }
+
+    section .fotoparrafo {
+        flex-direction: column;
+    }
+
+    section .fotoparrafo img {
+        width: 60%;
+        align-self: center;
+        margin-top: 10px;
+    }
+
+    section .fotoparrafo h4 {
+        font-size: 25px;
+        text-align: center;
+        margin: 30px;
+    }
+/*--------- SOBRE MÍ ---------*/
+    section .heroSaludo {
+        font-size: 30px;
+        margin: 0px;
+        padding: 30px; 
+    }
+
+    section .presentacion {
+        flex-direction: column;
+    }
+
+    section .presentacion h3 {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    section .presentacion img {
+        width: 40%;
+        align-self: flex-end;
+    }
+}
+
+
+@media screen and (max-width:538px){
+
+    header{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    
+    header nav ul {
+        align-items: center;
+        margin: -30px;
+        padding: 0px;
+    }
+
+    header nav ul li a {
+        padding: 35px;
+        font-size: 16px;
+    }
+
+    .hero h2 {
+        font-size: 40px;
+        margin: 0px;
+        padding: 30px; 
+    }
+
+    .servicios {
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+    }
+/*--------- CONTACTO ---------*/
+    section h2 {
+        font-size: 40px;
+        margin: 40px;
+    }
+
+    section p {
+        font-size: 25px;
+        margin: 40px;
+    }
+
+    section .formulario form textarea {
+        min-width: 250px;
+    }
+/*--------- DESARROLLO ---------*/
+    section .heroDesarrollo {
+        font-size: 40px;
+        margin: 40px;
+    }
+
+    section .desarolloParrafo {
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+
+    section .desarolloParrafo img {
+        width: 60%;
+        align-self: center;
+        margin-top: 40px;
+    }
+
+    section .desarolloParrafo h3 {
+        font-size: 20px;
+        text-align: center;
+        margin: 30px;
+    }
+
+/*--------- DISEÑO ---------*/
+    section .heroDiseno {
+        font-size: 40px;
+        margin: 30px 0px -30px;
+    }
+
+    section .disenoSubtitulo {
+        font-size: 20px;
+        text-align: center;
+        margin: 30px;
+    }
+
+    section .disenoSubtitulo img {
+        width: 100%;
+        align-self: center;
+        margin-bottom: 40px;
+    }
+
+    section .disenoSubtitulo {
+        flex-direction: column-reverse;
+    }
+/*--------- FOTOGRAFÍA ---------*/
+    section .heroFotografia {
+        font-size: 40px;
+        margin: 40px;
+    }
+
+    section .fotoparrafo {
+        flex-direction: column;
+    }
+
+    section .fotoparrafo img {
+        width: 60%;
+        align-self: center;
+        margin-top: 10px;
+    }
+
+    section .fotoparrafo h4 {
+        font-size: 25px;
+        text-align: center;
+        margin: 30px;
+    }
+/*--------- SOBRE MÍ ---------*/
+    section .heroSaludo {
+        font-size: 40px;
+        margin: 0px;
+        padding: 30px; 
+    }
+
+    section .presentacion {
+        flex-direction: column;
+    }
+
+    section .presentacion h3 {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    section .presentacion img {
+        width: 40%;
+        align-self: flex-end;
+    }
+}
+
+@media screen and (max-width:350px){
 
     header{
         flex-direction: column;
@@ -35,26 +306,7 @@
     footer h4 {
         font-size: 15px;
         }
-/*--------- SOBRE MÍ ---------*/
-    section .heroSaludo {
-        font-size: 30px;
-        margin: 0px;
-        padding: 30px; 
-    }
 
-    section .presentacion {
-        flex-direction: column;
-    }
-
-    section .presentacion h3 {
-        font-size: 20px;
-        margin: 20px;
-    }
-
-    section .presentacion img {
-        width: 40%;
-        align-self: flex-end;
-    }
 /*--------- CONTACTO ---------*/
     section h2 {
         font-size: 30px;
@@ -78,7 +330,7 @@
     section .desarolloParrafo img {
         width: 60%;
         align-self: center;
-        margin-top: 100px;
+        margin-top: 70px;
     }
 
     section .desarolloParrafo h3 {
@@ -133,160 +385,24 @@
         text-align: center;
         margin: 30px;
     }
-}
-
-@media screen and (max-width:900px){
-
-    .hero h2 {
-        font-size: 40px;
-        margin: 40px;
-        padding: 30px; 
-    }
-
-    .servicios {
-            flex-direction: column;
-            align-items: center;
-            margin: 30px;
-        }
-
-    .servicios img {
-        width: 12%;
-    }
-/*--------- CONTACTO ---------*/
-    section h2 {
-        font-size: 40px;
-        margin: 40px;
-        padding: 30px; 
-    }
-
-    section p {
-        font-size: 30px;
-        margin: 30px;
-    }
-
-    section .formulario form {
-        margin: 40px 0px 80px;
-    }
-/*--------- DESARROLLO ---------*/
-    section .heroDesarrollo {
-        font-size: 40px;
-        margin: 20px;
-        padding: 30px; 
-    }
-
-    section .desarolloParrafo {
-        flex-direction: column-reverse;
-        margin: 80px 0px 140px;
-    }
-
-    section .desarolloParrafo h3 {
-        font-size: 30px;
-        text-align: center;
-        margin: 30px;
-    }
-
-    section .desarolloParrafo img {
-        width: 40%;
-    }
-/*--------- DISEÑO ---------*/
-    section .heroDiseno {
-        font-size: 40px;
-        margin: 20px 0px -20px;
-        padding: 30px; 
-    }
-
-    section .disenoSubtitulo {
-        flex-direction: column;
-        margin: 10px 0px 90px;
-    }
-
-    section .disenoSubtitulo h3 {
-        font-size: 30px;
-        text-align: center;
-        margin-bottom: 60px;
-    }
-
-    section .disenoSubtitulo img {
-        width: 40%;
-    }
-/*--------- FOTOGRAFÍA ---------*/
-    section .heroFotografia {
-        font-size: 40px;
-        margin: 20px;
-        padding: 30px; 
-    }
-
-    section .fotoparrafo h4 {
-        font-size: 32px;
-        text-align: center;
-        }
 /*--------- SOBRE MÍ ---------*/
     section .heroSaludo {
-        font-size: 40px;
-        margin: 20px;
+        font-size: 30px;
+        margin: 0px;
         padding: 30px; 
+    }
+
+    section .presentacion {
+        flex-direction: column;
     }
 
     section .presentacion h3 {
-        font-size: 25px;
-        margin-bottom: 60px;
+        font-size: 20px;
+        margin: 20px;
     }
 
     section .presentacion img {
-        width: 30%;
+        width: 40%;
+        align-self: flex-end;
     }
 }
-
-@media screen and (max-width:717px){
-    
-    header{
-        margin-bottom: 10px;
-    }
-
-    header .logo {
-        padding: 20px;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-@media screen and (min-width: 1200px) {
-    body {
-        background-position-x: calc(100vw - 800px);
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
