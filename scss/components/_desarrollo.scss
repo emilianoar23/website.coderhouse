@@ -1,13 +1,33 @@
 @import "../base/variables";
 
-section{
-    .heroDesarrollo {
-        font-size: 60px;
-        margin: 70px;
+.hero-desarrollo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.200),
+    ),url(../../img/desarrollohsection.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    h1 {
+        font-size: 70px;
+        margin: 30px;
         text-align: center;
-        color: $color-letra;
+        color: rgba(172, 149, 67, 0.912);
+        text-shadow: 1px 1px 4px #111;
     }
-    .desarolloParrafo {
+}
+
+section {
+    .desarollo-parrafo {
         height: 56vh;
         display: flex;
         justify-content: center;

@@ -7,66 +7,98 @@
   font-family: 'Raleway', sans-serif; }
 
 body {
-  background-image: url("../img/background.jpg");
+  background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
   display: flex;
   flex-direction: column;
   min-height: 100vh; }
 
+::selection {
+  background-color: rgba(159, 144, 90, 0.76); }
+
+h1 {
+  font-size: 60px; }
+
+h1 {
+  font-size: 60px; }
+
 header {
   background: #2f34352c;
+  height: 120px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  height: 100px; }
-  header .logo {
-    font-size: 30px;
+  justify-content: space-between; }
+  header .contenedor-logo {
+    font-size: 35px;
     padding: 2rem;
     margin: 0; }
-  header h1 {
+  header p {
     color: #353434;
     font-weight: lighter; }
-    header h1 span {
+    header p span {
       font-weight: bold; }
-  header nav {
-    justify-content: center; }
-    header nav ul {
-      display: flex;
-      list-style: none;
-      align-self: center; }
-      header nav ul li a {
-        text-decoration: none;
-        padding: 30px;
-        font-size: 18px;
-        font-weight: bold;
-        color: #353434; }
-        header nav ul li a:hover {
-          color: #9f905a; }
+  header .navbar-light .offcanvas-header {
+    background-color: rgba(56, 53, 50, 0.273); }
+    header .navbar-light .offcanvas-header .btn-close {
+      color: #353434; }
+  header .navbar-light .offcanvas-body {
+    background-color: rgba(56, 53, 50, 0.273); }
+    header .navbar-light .offcanvas-body a.nav-link {
+      text-decoration: none;
+      text-align: center;
+      padding: 30px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #353434; }
+      header .navbar-light .offcanvas-body a.nav-link:hover {
+        color: #9f905a;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
+
+h1 {
+  font-size: 60px; }
 
 footer {
   width: 100%;
   background: #2f34352c;
   color: #353434; }
-  footer .redesSociales {
+  footer .redes-sociales {
     display: flex;
     justify-content: center; }
-    footer .redesSociales img {
+    footer .redes-sociales img {
       display: inline-flex;
       padding: 20px 0.9px 0px 20px; }
-  footer h4 {
+  footer p {
     font-size: 20px;
     padding: 15px;
     text-align: center;
     font-weight: bold; }
 
-section h2 {
-  font-size: 60px;
-  margin: 70px;
+h1 {
+  font-size: 60px; }
+
+.hero-contacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  color: #353434; }
+  flex-direction: column;
+  height: 60vh;
+  width: 100%;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(../../img/contactohsection.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  .hero-contacto h1 {
+    font-size: 70px;
+    margin: 30px;
+    text-align: center;
+    color: rgba(172, 149, 67, 0.912);
+    text-shadow: 1px 1px 4px #111; }
 
 section p {
-  font-size: 35px;
-  margin: 70px;
+  font-size: 50px;
+  margin: 60px;
+  padding: 60px;
   text-align: center;
   color: #353434; }
 
@@ -97,10 +129,10 @@ section .formulario {
       border-bottom-right-radius: 10px;
       font-size: 1rem;
       outline: none; }
-    section .formulario form .formBoton {
+    section .formulario form .form-boton {
       margin-bottom: 10px;
       background-color: rgba(128, 128, 128, 0.412); }
-      section .formulario form .formBoton:hover {
+      section .formulario form .form-boton:hover {
         background-color: #9f905a;
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
     section .formulario form textarea {
@@ -121,32 +153,66 @@ section .formulario {
       outline: none;
       resize: none; }
 
-section .heroDesarrollo {
-  font-size: 60px;
-  margin: 70px;
-  text-align: center;
-  color: #353434; }
+h1 {
+  font-size: 60px; }
 
-section .desarolloParrafo {
+.hero-desarrollo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 60vh;
+  width: 100%;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(../../img/desarrollohsection.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  .hero-desarrollo h1 {
+    font-size: 70px;
+    margin: 30px;
+    text-align: center;
+    color: rgba(172, 149, 67, 0.912);
+    text-shadow: 1px 1px 4px #111; }
+
+section .desarollo-parrafo {
   height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 100px; }
-  section .desarolloParrafo img {
+  section .desarollo-parrafo img {
     width: 25%; }
-  section .desarolloParrafo h3 {
+  section .desarollo-parrafo h3 {
     font-size: 35px;
     margin: 40px;
     color: #353434; }
 
-section .heroDiseno {
-  font-size: 60px;
-  margin: 30px;
-  text-align: center;
-  color: #353434; }
+h1 {
+  font-size: 60px; }
 
-section .disenoSubtitulo {
+.hero-diseno {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 60vh;
+  width: 100%;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.166), rgba(0, 0, 0, 0.2)), url(../../img/disenohsection.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  .hero-diseno h1 {
+    font-size: 70px;
+    margin: 30px;
+    text-align: center;
+    color: rgba(172, 149, 67, 0.912);
+    text-shadow: 1px 1px 4px #111; }
+
+section .diseno-subtitulo {
   font-size: 40px;
   margin: 60px;
   padding: 40px;
@@ -154,12 +220,36 @@ section .disenoSubtitulo {
   display: flex;
   justify-content: center;
   align-items: center; }
-  section .disenoSubtitulo img {
+  section .diseno-subtitulo img {
     width: 25%; }
 
-section h2 .heroFotografia {
+h1 {
+  font-size: 60px; }
+
+.hero-fotografia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 60vh;
+  width: 100%;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(../../img/fotografiahsection.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  .hero-fotografia h1 {
+    font-size: 70px;
+    margin: 30px;
+    text-align: center;
+    color: rgba(172, 149, 67, 0.912);
+    text-shadow: 1px 1px 4px #111; }
+
+section h2 {
   font-size: 60px;
-  margin: 70px;
+  margin: 60px;
+  padding: 60px;
   text-align: center;
   color: #353434; }
 
@@ -173,20 +263,21 @@ section .fotoparrafo {
     flex-wrap: nowrap;
     width: 25%;
     margin: 15px; }
-  section .fotoparrafo h4 {
+  section .fotoparrafo h3 {
     font-size: 35px;
     margin: 40px;
     color: #353434; }
 
-section .gridGaleria {
+section .grid-galeria {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-auto-rows: minmax(200px, auto);
   gap: 20px;
   padding: 20px;
+  margin-bottom: 100px;
   grid-auto-flow: dense;
   background: #2f343550; }
-  section .gridGaleria .gridItem {
+  section .grid-galeria .grid-item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -195,15 +286,18 @@ section .gridGaleria {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; }
-    section .gridGaleria .gridItem img {
+    section .grid-galeria .grid-item img {
       width: 100%;
       object-fit: cover; }
-      section .gridGaleria .gridItem img:hover {
+      section .grid-galeria .grid-item img:hover {
         filter: opacity(0.9);
         transform: scale(1.04);
         transition: all .4s ease-in-out 0s; }
 
-section .heroSaludo {
+h1 {
+  font-size: 60px; }
+
+section .hero-saludo {
   text-align: center;
   font-size: 60px;
   margin: 50px;
@@ -213,7 +307,7 @@ section .presentacion {
   display: flex;
   justify-content: center;
   align-items: center; }
-  section .presentacion h3 {
+  section .presentacion h2 {
     font-size: 40px;
     margin: 70px;
     color: #353434; }
@@ -221,9 +315,12 @@ section .presentacion {
     justify-content: flex-end;
     width: 20%; }
 
-section .hero h2 {
-  font-size: 2rem;
-  margin: 150px;
+h1 {
+  font-size: 60px; }
+
+section .hero {
+  font-size: 60px;
+  margin: 100px;
   text-align: center;
   color: #353434; }
 
@@ -232,6 +329,7 @@ section .servicios {
   section .servicios div {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     height: auto;
     width: 100%;
     margin: 30px;
@@ -242,23 +340,108 @@ section .servicios {
     section .servicios div img {
       align-self: center; }
     section .servicios div h3 {
-      text-align: center; }
+      text-align: center;
+      justify-content: first baseline; }
     section .servicios div p {
       margin: 18px;
       margin-bottom: 20px;
       font-size: 1.2rem; }
-    section .servicios div a {
-      text-decoration: none;
-      align-self: center;
-      flex-direction: column;
-      font-size: 1.5rem;
-      color: #ebeaea;
-      background-color: rgba(79, 79, 79, 0.812);
-      padding: 5px 10px 5px 10px;
-      border-radius: 5px; }
-      section .servicios div a:hover {
-        background-color: #9f905a;
-        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
+  section .servicios a {
+    text-decoration: none;
+    align-self: center;
+    font-size: 1.5rem;
+    color: #ebeaea;
+    background-color: rgba(79, 79, 79, 0.812);
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 20px;
+    border-radius: 5px; }
+    section .servicios a:hover {
+      background-color: #9f905a;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
+
+@media screen and (max-width: 991px) {
+  header {
+    display: flex;
+    margin-bottom: 10px; }
+  header .navbar-light .navbar-nav a.nav-link {
+    position: relative;
+    padding: 3px; }
+  .container .collapse {
+    position: relative;
+    background: rgba(68, 68, 68, 0.111); }
+  .hero h1 {
+    font-size: 30px;
+    margin: 0px;
+    padding: 30px; }
+  .servicios {
+    flex-direction: column;
+    align-items: center;
+    margin: 30px; }
+  /*--------- CONTACTO ---------*/
+  section h2 {
+    font-size: 30px;
+    margin: 40px; }
+  section p {
+    font-size: 25px;
+    margin: 40px; }
+  section .formulario form textarea {
+    min-width: 250px; }
+  /*--------- DESARROLLO ---------*/
+  section .heroDesarrollo {
+    font-size: 40px;
+    margin: 40px; }
+  section .desarolloParrafo {
+    flex-direction: column;
+    margin-bottom: 80px; }
+  section .desarolloParrafo img {
+    width: 60%;
+    align-self: center;
+    margin-top: 40px; }
+  section .desarolloParrafo h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 30px; }
+  /*--------- DISEÑO ---------*/
+  section .heroDiseno {
+    font-size: 30px;
+    margin: 30px 0px -30px; }
+  section .disenoSubtitulo {
+    font-size: 20px;
+    text-align: center;
+    margin: 30px; }
+  section .disenoSubtitulo img {
+    width: 100%;
+    align-self: center;
+    margin-bottom: 10px; }
+  section .disenoSubtitulo {
+    flex-direction: column-reverse; }
+  /*--------- FOTOGRAFÍA ---------*/
+  section .heroFotografia {
+    font-size: 30px;
+    margin: 40px; }
+  section .fotoparrafo {
+    flex-direction: column; }
+  section .fotoparrafo img {
+    width: 60%;
+    align-self: center;
+    margin-top: 10px; }
+  section .fotoparrafo h4 {
+    font-size: 25px;
+    text-align: center;
+    margin: 30px; }
+  /*--------- SOBRE MÍ ---------*/
+  section .heroSaludo {
+    font-size: 30px;
+    margin: 0px;
+    padding: 30px; }
+  section .presentacion {
+    flex-direction: column; }
+  section .presentacion h3 {
+    font-size: 20px;
+    margin: 20px; }
+  section .presentacion img {
+    width: 40%;
+    align-self: flex-end; } }
 
 @media screen and (max-width: 710px) {
   header {
@@ -439,7 +622,7 @@ section .servicios {
   header {
     flex-direction: column;
     margin-bottom: 10px; }
-  header .logo h3 {
+  header .logo p {
     font-size: 20px; }
   header nav ul {
     align-items: center;
@@ -448,7 +631,7 @@ section .servicios {
   header nav ul li a {
     padding: 20px;
     font-size: 14px; }
-  .hero h2 {
+  .hero h1 {
     font-size: 30px;
     margin: 0px;
     padding: 30px; }

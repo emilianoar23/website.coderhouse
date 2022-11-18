@@ -2,39 +2,41 @@
 
 header {
     background: $color-fondo;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100px;
-    .logo {
-        font-size: 30px;
+    .contenedor-logo {
+        font-size: 35px;
         padding: 2rem;
         margin: 0;
     }
-    h1 {
+    p {
         color: $color-letra;
         font-weight: lighter;
         span {
             font-weight: bold;
         }
     }
-    nav {
-        justify-content: center;
-        ul {
-            display: flex;
-            list-style: none;
-
-            align-self: center;
-            li {
-                a {
-                    text-decoration: none;
-                    padding: 30px;
-                    font-size: 18px;
-                    font-weight: bold;
-                    color: $color-letra;
-                    &:hover {
-                        color: rgb(159, 144, 90);
-                    }
+    .navbar-light {
+        .offcanvas-header {
+            background-color: $color-offcanvas;
+            .btn-close {
+                color: $color-letra;
+            }
+        }
+        .offcanvas-body {
+            background-color: $color-offcanvas;
+            a.nav-link {
+                text-decoration: none;
+                text-align: center;
+                padding: 30px;
+                font-size: 18px;
+                font-weight: bold;
+                color: $color-letra;
+                &:hover {
+                    color: rgb(159, 144, 90);
+                    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
                 }
             }
         }

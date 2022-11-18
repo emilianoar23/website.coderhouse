@@ -8,8 +8,12 @@
 }
 
 body {
-    background-image: url("../img/background.jpg");
+    background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+::selection {
+    background-color: rgba(159, 144, 90, 0.76);
 }

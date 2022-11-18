@@ -1,13 +1,37 @@
 @import "../base/variables";
 
-section{
+.hero-fotografia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.200),
+    ),url(../../img/fotografiahsection.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    h1 {
+        font-size: 70px;
+        margin: 30px;
+        text-align: center;
+        color: rgba(172, 149, 67, 0.912);
+        text-shadow: 1px 1px 4px #111;
+    }
+}
+section {
     h2 {
-    .heroFotografia {
         font-size: 60px;
-        margin: 70px;
+        margin: 60px;
+        padding: 60px;
         text-align: center;
         color: $color-letra;
-        }
     }
     .fotoparrafo {
         display: flex;
@@ -20,7 +44,7 @@ section{
             width: 25%;
             margin: 15px
         }
-            h4 {
+            h3 {
                 font-size: 35px;
                 margin: 40px;
                 color: $color-letra;
@@ -28,15 +52,16 @@ section{
         }
     
     
-    .gridGaleria {
+    .grid-galeria {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         grid-auto-rows: minmax(200px, auto);
         gap: 20px;
         padding: 20px;
+        margin-bottom: 100px;
         grid-auto-flow: dense;
         background: #2f343550;
-        .gridItem {
+        .grid-item {
             display: flex;
             align-items: center;
             justify-content: center;
