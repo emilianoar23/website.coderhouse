@@ -27,14 +27,17 @@
 }
 
 section {
-    .diseno-subtitulo {
-        font-size: 40px;
-        margin: 60px;
-        padding: 40px;
-        color: $color-letra;
+    .diseno-parrafo {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 180px 0 160px;
+        padding: 20px;
+        h3 {
+            font-size: 35px;
+            margin: 40px;
+            color: $color-letra;
+        }
         img {
             width: 25%;
         }

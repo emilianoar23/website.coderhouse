@@ -33,7 +33,7 @@ section {
         text-align: center;
         color: $color-letra;
     }
-    .fotoparrafo {
+    .foto-parrafo {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -49,9 +49,7 @@ section {
                 margin: 40px;
                 color: $color-letra;
             }
-        }
-    
-    
+        }    
     .grid-galeria {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -82,4 +80,3 @@ section {
         }
     }
 }
-

@@ -1,11 +1,11 @@
 @import "../base/variables";
 
 header {
-    background: $color-fondo;
-    height: 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: $color-fondo;
+    height: 16vh;
     .contenedor-logo {
         font-size: 35px;
         padding: 2rem;

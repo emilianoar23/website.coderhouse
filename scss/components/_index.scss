@@ -1,18 +1,26 @@
 @import "../base/variables";
 
-section{
-        .hero {
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 40vh;
+        h1 {
         font-size: 60px;
-        margin: 100px;
         text-align: center;
+        margin: 40px;
+        padding: 30px;
         color: $color-letra;
     }
-
 }
 
 section {
     .servicios {
         display: flex;
+        margin: 40px;
+        padding-bottom: 50px;
         div {            
             display: flex;
             flex-direction: column;
@@ -30,6 +38,9 @@ section {
             h3 {
                 text-align: center;
                 justify-content: first baseline;
+                font-weight: bold;
+                text-decoration-line: underline; 
+                text-underline-offset: 10px;
             }
             p {
                 margin: 18px;
