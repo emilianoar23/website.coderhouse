@@ -1,9 +1,7 @@
 @import "../base/variables";
 
 .hero-fotografia {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %flex;
     text-align: center;
     flex-direction: column;
     height: 60vh;
@@ -18,25 +16,23 @@
     background-position: center;
     background-attachment: fixed;
     h1 {
-        font-size: 70px;
+        font-size: nth($font-size, 5);
         margin: 30px;
         text-align: center;
-        color: rgba(172, 149, 67, 0.912);
-        text-shadow: 1px 1px 4px #111;
+        color: $color-hero-letra;
+        text-shadow: 1px 1px 4px $color-hero-sombra;
     }
 }
 section {
     h2 {
-        font-size: 60px;
+        font-size: nth($font-size, 4);
         margin: 60px;
         padding: 60px;
         text-align: center;
         color: $color-letra;
     }
     .foto-parrafo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex (flex, center, center);
         padding-bottom: 100px;
         img {
             display: flex;
@@ -58,11 +54,9 @@ section {
         padding: 20px;
         margin-bottom: 100px;
         grid-auto-flow: dense;
-        background: #2f343550;
+        background: $color-fondo-cajas;
         .grid-item {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            @include flex (flex, center, center);
             border-radius: 4px;
             transition: transform 0.3s ease-in-out;
             background-size: cover;

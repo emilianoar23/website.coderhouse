@@ -1,15 +1,15 @@
 @import "../base/variables";
 
 .hero-saludo {
+    h1 {
         text-align: center;
-        font-size: 60px;
+        font-size: nth($font-size, 4);
         margin: 80px 0 60px;
         color: $color-letra;
     }
+}
     .presentacion {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend %flex;
         h3 {
             font-size: 2rem;
             margin: 70px;

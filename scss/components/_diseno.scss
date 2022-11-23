@@ -1,9 +1,7 @@
 @import "../base/variables";
 
 .hero-diseno {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %flex;
     text-align: center;
     flex-direction: column;
     height: 60vh;
@@ -21,16 +19,14 @@
         font-size: 70px;
         margin: 30px;
         text-align: center;
-        color: rgba(172, 149, 67, 0.912);
-        text-shadow: 1px 1px 4px #111;
+        color: $color-hero-letra;
+        text-shadow: 1px 1px 4px $color-hero-sombra;
     }
 }
 
 section {
     .diseno-parrafo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex (flex, center, center);
         margin: 180px 0 160px;
         padding: 20px;
         h3 {

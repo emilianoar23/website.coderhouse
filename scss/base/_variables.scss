@@ -4,17 +4,44 @@ $color-letra: rgb(53, 52, 52);
 $color-letra-boton: rgb(235, 234, 234);
 $color-boton: rgba(79, 79, 79, 0.812);
 $color-fondo: #2f34352c;
+$color-fondo-cajas:rgba(0, 0, 0, 0.096);
 $color-seleccion: rgba(159, 144, 90, 0.76);
 $color-offcanvas: rgba(56, 53, 50, 0.273);
+$color-form-boton: rgba(128, 128, 128, 0.412);
+$color-boton-fondo: rgb(159, 144, 90);
+$color-boton-sombra: rgba(0,0,0,0.5);
+$color-hero-letra:rgba(172, 149, 67, 0.912);
+$color-hero-sombra: #111;
+
+
 
 //! LISTAS
 $font-size:
-12px,
-16px,
 20px,
-60px;
+40px,
+50px,
+60px,
+70px;
 
+$boton:(
 
-h1 {
-    font-size: nth($font-size, 4);
+padding: 5px 10px 5px 10px,
+margin-bottom: 20px,
+border-radius: 5px,
+);
+
+//! EXTENDS
+
+%flex{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+//! MIXING
+
+@mixin flex ($flex, $align, $justify){
+    display: $flex;
+    align-items: $align;
+    justify-content: $justify;
 }

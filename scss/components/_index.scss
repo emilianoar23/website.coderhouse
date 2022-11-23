@@ -1,14 +1,12 @@
 @import "../base/variables";
 
 .hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %flex;
     text-align: center;
     flex-direction: column;
     height: 40vh;
         h1 {
-        font-size: 60px;
+        font-size: nth($font-size, 4);
         text-align: center;
         margin: 40px;
         padding: 30px;
@@ -31,7 +29,7 @@ section {
             padding: 20px;
             border-radius: 15px;
             color: $color-letra;
-            background-color: rgba(0, 0, 0, 0.096);
+            background-color: $color-fondo-cajas;
             img {
                 align-self: center;
                 }
@@ -54,12 +52,12 @@ section {
             font-size: 1.5rem;
             color: $color-letra-boton;
             background-color: $color-boton;
-            padding: 5px 10px 5px 10px;
-            margin-bottom: 20px;
-            border-radius: 5px;
+            padding: map-get($boton, padding);
+            margin-bottom: map-get($boton, margin-bottom);
+            border-radius: map-get($boton, border-radius);
             &:hover {
-                background-color: rgb(159, 144, 90);
-                box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+                background-color: $color-boton-fondo;
+                box-shadow: 2px 2px 10px $color-boton-sombra;
             }
         }
     }

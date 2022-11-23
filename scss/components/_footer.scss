@@ -13,7 +13,7 @@ footer {
         }
     }
     p {
-        font-size: 20px;
+        font-size: nth($font-size, 1);
         padding: 15px;
         text-align: center;
         font-weight: bold;
