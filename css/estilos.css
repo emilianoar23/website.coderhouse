@@ -665,7 +665,7 @@ section .servicios {
   /*--------- SOBRE MÍ ---------*/
   .hero-saludo h1 {
     font-size: 40px;
-    margin: 0;
+    margin: 20px;
     padding: 0; }
   section .presentacion {
     flex-direction: column; }
