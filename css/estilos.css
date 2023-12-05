@@ -13,7 +13,7 @@ body {
   min-height: 100vh; }
 
 ::selection {
-  background-color: rgba(159, 144, 90, 0.76); }
+  background-color: rgba(139, 0, 0, 0.37); }
 
 .hero-contacto, .hero-desarrollo, section .desarollo-parrafo, .hero-diseno, .hero-fotografia, .presentacion, .hero {
   display: flex;
@@ -39,7 +39,8 @@ header {
     color: #353434;
     font-weight: lighter; }
     header p span {
-      font-weight: bold; }
+      font-weight: bold;
+      color: darkred; }
   header .navbar-light .offcanvas-header {
     background-color: rgba(56, 53, 50, 0.273); }
     header .navbar-light .offcanvas-header .btn-close {
