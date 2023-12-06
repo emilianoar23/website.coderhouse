@@ -2,7 +2,7 @@
 
 header {
     @include flex (flex, center, space-between);
-    background: $color-fondo;
+    background: $bg-color;
     height: 16vh;
     .contenedor-logo {
         font-size: 35px;
@@ -14,7 +14,7 @@ header {
         font-weight: lighter;
         span {
             font-weight: bold;
-            color: darkred;
+            color: $font-color;
         }
     }
     .navbar-light {

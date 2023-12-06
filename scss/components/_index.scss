@@ -1,18 +1,6 @@
 @import "../base/variables";
 
-.hero {
-    @extend %flex;
-    text-align: center;
-    flex-direction: column;
-    height: 40vh;
-        h1 {
-        font-size: nth($font-size, 4);
-        text-align: center;
-        margin: 40px;
-        padding: 30px;
-        color: $color-letra;
-    }
-}
+
 
 section {
     .servicios {
