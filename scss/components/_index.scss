@@ -14,12 +14,16 @@
         border-radius: 5px;
         background-color: $bg-color;
         h2 {
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             font-weight: bold;
             text-align: center;
             color: $font-color;
             margin: 15px;
             padding: 0;
+        }
+        span {
+            color: $details-color;
+            font-size: 1.4rem;
         }
     }
 }

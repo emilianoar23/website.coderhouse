@@ -335,12 +335,15 @@ section .grid-galeria {
     border-radius: 5px;
     background-color: #931A25; }
     .servicios .cards h2 {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       font-weight: bold;
       text-align: center;
       color: #F5EFEF;
       margin: 15px;
       padding: 0; }
+    .servicios .cards span {
+      color: #FFCB8E;
+      font-size: 1.4rem; }
 
 @media all and (min-width: 1161px) and (max-width: 1450px) {
   .hero h1 {
