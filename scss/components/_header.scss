@@ -19,20 +19,20 @@ header {
     }
     .navbar-light {
         .offcanvas-header {
-            background-color: $color-offcanvas;
+            background-color: $bg-color;
             .btn-close {
-                color: $color-letra;
+                color: $font-color;
             }
         }
         .offcanvas-body {
-            background-color: $color-offcanvas;
+            background-color: $bg-color;
             a.nav-link {
                 text-decoration: none;
                 text-align: center;
                 padding: 30px;
                 font-size: 18px;
                 font-weight: bold;
-                color: $color-letra;
+                color: $font-color;
                 &:hover {
                     color: $color-boton-fondo;
                     box-shadow: 2px 2px 10px $color-boton-sombra;

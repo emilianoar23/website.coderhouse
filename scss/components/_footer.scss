@@ -7,13 +7,13 @@ footer {
     .redes-sociales {
         display: flex;
         justify-content: center;
+        align-items: center;
         img {
-            display: inline-flex;
-            padding: 20px 0.9px 0px 20px;
+            margin: 15px 10px;
         }
     }
     p {
-        font-size: nth($font-size, 1);
+        font-size: 1rem;
         padding: 15px;
         text-align: center;
         font-weight: bold;
