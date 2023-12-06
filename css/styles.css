@@ -35,10 +35,10 @@ header {
     font-size: 35px;
     padding: 2rem;
     margin: 0; }
-  header p {
+  header h1 {
     color: #353434;
     font-weight: lighter; }
-    header p span {
+    header h1 span {
       font-weight: bold;
       color: #F5EFEF; }
   header .navbar-light .offcanvas-header {
@@ -321,45 +321,26 @@ section .grid-galeria {
   align-items: center;
   justify-content: center; }
 
-section .servicios {
+.servicios {
   display: flex;
-  margin: 40px;
-  padding-bottom: 50px; }
-  section .servicios div {
+  justify-content: space-around; }
+  .servicios .cards {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: auto;
+    align-items: center;
+    justify-content: center;
+    height: 9rem;
     width: 100%;
-    margin: 30px;
-    padding: 20px;
-    border-radius: 15px;
-    color: #353434;
-    background-color: rgba(0, 0, 0, 0.096); }
-    section .servicios div img {
-      align-self: center; }
-    section .servicios div h3 {
-      text-align: center;
-      justify-content: first baseline;
+    margin: 50px 10px;
+    border-radius: 5px;
+    background-color: #931A25; }
+    .servicios .cards h2 {
+      font-size: 1.3rem;
       font-weight: bold;
-      text-decoration-line: underline;
-      text-underline-offset: 10px; }
-    section .servicios div p {
-      margin: 18px;
-      margin-bottom: 20px;
-      font-size: 1.2rem; }
-  section .servicios a {
-    text-decoration: none;
-    align-self: center;
-    font-size: 1.5rem;
-    color: #ebeaea;
-    background-color: rgba(79, 79, 79, 0.812);
-    padding: 5px 10px 5px 10px;
-    margin-bottom: 20px;
-    border-radius: 5px; }
-    section .servicios a:hover {
-      background-color: #9f905a;
-      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
+      text-align: center;
+      color: #F5EFEF;
+      margin: 15px;
+      padding: 0; }
 
 @media all and (min-width: 1161px) and (max-width: 1450px) {
   .hero h1 {
