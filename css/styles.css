@@ -121,18 +121,13 @@ footer {
       height: 40px;
       width: 75%;
       padding-left: 20px;
-      color: #353434;
+      border-color: #353434;
+      color: #F5EFEF;
       border: 2px solid;
       border-radius: 4px;
       background-color: #931a2475;
       font-size: 1rem;
       outline: none; }
-    .head-form .formulario form .formBoton {
-      margin-bottom: 10px;
-      background-color: rgba(128, 128, 128, 0.412); }
-      .head-form .formulario form .formBoton:hover {
-        background-color: #9f905a;
-        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
     .head-form .formulario form textarea {
       display: block;
       margin: auto;
@@ -141,15 +136,20 @@ footer {
       height: 180px;
       width: 75%;
       padding-left: 10px;
-      color: #353434;
+      color: #F5EFEF;
       border: 2px solid;
       border-radius: 2px;
+      border-color: #F5EFEF;
       background-color: transparent;
-      border-top-left-radius: 10px;
-      border-bottom-right-radius: 10px;
       font-size: 1rem;
       outline: none;
       resize: none; }
+    .head-form .formulario form .formBoton {
+      margin-bottom: 10px;
+      background-color: rgba(128, 128, 128, 0.412); }
+      .head-form .formulario form .formBoton:hover {
+        background-color: #9f905a;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
 
 .hero-contacto, .hero-desarrollo, section .desarollo-parrafo {
   display: flex;
