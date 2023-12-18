@@ -15,12 +15,12 @@ body {
 ::selection {
   background-color: #ffca8e8f; }
 
-.hero-contacto, .hero-desarrollo, section .desarollo-parrafo, .hero-diseno, .hero-fotografia, .presentacion {
+.hero-contacto, .hero-desarrollo, section .desarollo-parrafo {
   display: flex;
   align-items: center;
   justify-content: center; }
 
-.hero-contacto, .hero-desarrollo, section .desarollo-parrafo, .hero-diseno, .hero-fotografia, .presentacion {
+.hero-contacto, .hero-desarrollo, section .desarollo-parrafo {
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -32,8 +32,8 @@ header {
   background: #931A25;
   height: 16vh; }
   header .contenedor-logo {
-    font-size: 35px;
-    padding: 2rem;
+    font-size: 1rem;
+    padding: 1.5rem;
     margin: 0; }
   header h1 {
     color: #353434;
@@ -51,14 +51,14 @@ header {
       text-decoration: none;
       text-align: center;
       padding: 30px;
-      font-size: 18px;
-      font-weight: bold;
+      font-size: 1rem;
+      font-weight: lighter;
       color: #F5EFEF; }
       header .navbar-light .offcanvas-body a.nav-link:hover {
-        color: #9f905a;
+        color: #cdc554;
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
 
-.hero-contacto, .hero-desarrollo, section .desarollo-parrafo, .hero-diseno, .hero-fotografia, .presentacion {
+.hero-contacto, .hero-desarrollo, section .desarollo-parrafo {
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -79,7 +79,79 @@ footer {
     text-align: center;
     font-weight: bold; }
 
-.hero-contacto, .hero-desarrollo, section .desarollo-parrafo, .hero-diseno, .hero-fotografia, .presentacion {
+.hero-contacto, .hero-desarrollo, section .desarollo-parrafo {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.hero-contacto h2 {
+  font-size: 3rem;
+  margin: 10px;
+  text-align: center;
+  color: #cdc554;
+  font-weight: lighter; }
+
+.head-form h3 {
+  font-size: 2rem;
+  margin: 10px;
+  text-align: center;
+  color: gray; }
+
+.head-form .formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .head-form .formulario form {
+    width: 600px;
+    min-width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px;
+    font-size: large;
+    background-color: #931A25; }
+    .head-form .formulario form label {
+      color: #F5EFEF;
+      font-weight: lighter;
+      margin: 30px;
+      padding: 20px; }
+    .head-form .formulario form input {
+      display: block;
+      margin: auto;
+      margin-bottom: 10px;
+      height: 40px;
+      width: 75%;
+      padding-left: 20px;
+      color: #353434;
+      border: 2px solid;
+      border-radius: 4px;
+      background-color: #931a2475;
+      font-size: 1rem;
+      outline: none; }
+    .head-form .formulario form .formBoton {
+      margin-bottom: 10px;
+      background-color: rgba(128, 128, 128, 0.412); }
+      .head-form .formulario form .formBoton:hover {
+        background-color: #9f905a;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
+    .head-form .formulario form textarea {
+      display: block;
+      margin: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      height: 180px;
+      width: 75%;
+      padding-left: 10px;
+      color: #353434;
+      border: 2px solid;
+      border-radius: 2px;
+      background-color: transparent;
+      border-top-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      font-size: 1rem;
+      outline: none;
+      resize: none; }
+
+.hero-contacto, .hero-desarrollo, section .desarollo-parrafo {
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -159,7 +231,7 @@ section .formulario {
       outline: none;
       resize: none; }
 
-.hero-contacto, .hero-desarrollo, section .desarollo-parrafo, .hero-diseno, .hero-fotografia, .presentacion {
+.hero-contacto, .hero-desarrollo, section .desarollo-parrafo {
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -169,7 +241,7 @@ section .formulario {
   flex-direction: column;
   height: 60vh;
   width: 100%;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(../../img/desarrollohsection.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(../../img/disenohsection.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -191,132 +263,7 @@ section .desarollo-parrafo {
     margin: 40px;
     color: #353434; }
 
-.hero-contacto, .hero-desarrollo, section .desarollo-parrafo, .hero-diseno, .hero-fotografia, .presentacion {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-.hero-diseno {
-  text-align: center;
-  flex-direction: column;
-  height: 60vh;
-  width: 100%;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.166), rgba(0, 0, 0, 0.2)), url(../../img/disenohsection.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; }
-  .hero-diseno h1 {
-    font-size: 70px;
-    margin: 30px;
-    text-align: center;
-    color: rgba(172, 149, 67, 0.912);
-    text-shadow: 1px 1px 4px #111; }
-
-section .diseno-parrafo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 180px 0 160px;
-  padding: 20px; }
-  section .diseno-parrafo h3 {
-    font-size: 35px;
-    margin: 40px;
-    color: #353434; }
-  section .diseno-parrafo img {
-    width: 25%; }
-
-.hero-contacto, .hero-desarrollo, section .desarollo-parrafo, .hero-diseno, .hero-fotografia, .presentacion {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-.hero-fotografia {
-  text-align: center;
-  flex-direction: column;
-  height: 60vh;
-  width: 100%;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(../../img/fotografiahsection.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; }
-  .hero-fotografia h1 {
-    font-size: 70px;
-    margin: 30px;
-    text-align: center;
-    color: rgba(172, 149, 67, 0.912);
-    text-shadow: 1px 1px 4px #111; }
-
-section h2 {
-  font-size: 60px;
-  margin: 60px;
-  padding: 60px;
-  text-align: center;
-  color: #353434; }
-
-section .foto-parrafo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 100px; }
-  section .foto-parrafo img {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 25%;
-    margin: 15px; }
-  section .foto-parrafo h3 {
-    font-size: 35px;
-    margin: 40px;
-    color: #353434; }
-
-section .grid-galeria {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-auto-rows: minmax(200px, auto);
-  gap: 20px;
-  padding: 20px;
-  margin-bottom: 100px;
-  grid-auto-flow: dense;
-  background: rgba(0, 0, 0, 0.096); }
-  section .grid-galeria .grid-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
-    transition: transform 0.3s ease-in-out;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; }
-    section .grid-galeria .grid-item img {
-      width: 100%;
-      object-fit: cover; }
-      section .grid-galeria .grid-item img:hover {
-        filter: opacity(0.9);
-        transform: scale(1.04);
-        transition: all .4s ease-in-out 0s; }
-
-.hero-contacto, .hero-desarrollo, section .desarollo-parrafo, .hero-diseno, .hero-fotografia, .presentacion {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-.hero-saludo h1 {
-  text-align: center;
-  font-size: 60px;
-  margin: 80px 0 60px;
-  color: #353434; }
-
-.presentacion h3 {
-  font-size: 2rem;
-  margin: 70px;
-  color: #353434; }
-
-.presentacion img {
-  justify-content: flex-end;
-  width: 20%; }
-
-.hero-contacto, .hero-desarrollo, section .desarollo-parrafo, .hero-diseno, .hero-fotografia, .presentacion {
+.hero-contacto, .hero-desarrollo, section .desarollo-parrafo {
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -342,7 +289,7 @@ section .grid-galeria {
       margin: 15px;
       padding: 0; }
     .servicios .cards span {
-      color: #FFCB8E;
+      color: #cdc554;
       font-size: 1.4rem; }
 
 @media all and (min-width: 1161px) and (max-width: 1450px) {
