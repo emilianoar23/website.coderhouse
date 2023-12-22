@@ -19,8 +19,9 @@ $bg-color: #931A25;
 $items-color: #E97171;
 $details-color: #cdc554;
 $font-color: #F5EFEF;
+$font-color-dark: #353434;
 
-//! LISTAS
+// LISTAS
 $font-size:
 20px,
 40px,
@@ -35,7 +36,7 @@ margin-bottom: 20px,
 border-radius: 5px,
 );
 
-//! EXTENDS
+// EXTENDS
 
 %flex{
 display: flex;
@@ -43,7 +44,7 @@ align-items: center;
 justify-content: center;
 }
 
-//! MIXING
+// MIXING
 
 @mixin flex ($flex, $align, $justify){
     display: $flex;
