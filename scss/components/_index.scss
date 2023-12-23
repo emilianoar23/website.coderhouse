@@ -1,5 +1,9 @@
 @import "../base/variables";
 
+.carousel-inner {
+    height: 65vh;
+    margin: 10px 0px;
+}
 .servicios {
     display: flex;
     justify-content: space-around;

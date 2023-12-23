@@ -2,13 +2,13 @@
 
 header {
     @include flex (flex, center, space-between);
-    background: $bg-color;
-    height: 11vh;
+    height: 18vh;
     .navbar {
         width: 100%;
+        border: 5px;
         h1 {
             font-size: 2rem;
-            color: $color-letra;
+            color: $font-color-dark;
             font-weight: lighter;
             span {
                 font-weight: bold;

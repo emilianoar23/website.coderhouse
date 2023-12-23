@@ -10,10 +10,10 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #F5EFEF; }
+  background-color: #f8f9fa; }
 
 ::selection {
-  background-color: #ffca8e8f; }
+  background-color: #80808060; }
 
 .hero-contacto, .hero-desarrollo, section .desarollo-parrafo {
   display: flex;
@@ -29,10 +29,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #931A25;
-  height: 11vh; }
+  height: 18vh; }
   header .navbar {
-    width: 100%; }
+    width: 100%;
+    border: 5px; }
     header .navbar h1 {
       font-size: 2rem;
       color: #353434;
@@ -256,6 +256,10 @@ section .desarollo-parrafo {
   display: flex;
   align-items: center;
   justify-content: center; }
+
+.carousel-inner {
+  height: 65vh;
+  margin: 10px 0px; }
 
 .servicios {
   display: flex;
