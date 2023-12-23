@@ -228,18 +228,16 @@ section .formulario {
 .hero-desarrollo {
   text-align: center;
   flex-direction: column;
-  height: 60vh;
+  height: 65vh;
   width: 100%;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(../../img/disenohsection.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.2)), url(../../img/sobre-nosotros.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed; }
-  .hero-desarrollo h1 {
-    font-size: 70px;
-    margin: 30px;
+  background-position: bottom; }
+  .hero-desarrollo h2 {
+    font-size: 3rem;
     text-align: center;
-    color: rgba(172, 149, 67, 0.912);
+    color: #F5EFEF;
     text-shadow: 1px 1px 4px #111; }
 
 section .desarollo-parrafo {

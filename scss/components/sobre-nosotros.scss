@@ -4,22 +4,20 @@
     @extend %flex;
     text-align: center;
     flex-direction: column;
-    height: 60vh;
+    height: 65vh;
     width: 100%;
     background-image: linear-gradient(
         0deg,
-        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.397),
         rgba(0, 0, 0, 0.200),
-    ),url(../../img/disenohsection.jpg);
+    ),url(../../img/sobre-nosotros.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    h1 {
-        font-size: 70px;
-        margin: 30px;
+    background-position: bottom;
+    h2 {
+        font-size: 3rem;
         text-align: center;
-        color: $color-hero-letra;
+        color: $font-color;
         text-shadow: 1px 1px 4px $color-hero-sombra;
     }
 }
