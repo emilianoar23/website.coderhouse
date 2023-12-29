@@ -15,12 +15,12 @@ body {
 ::selection {
   background-color: #80808060; }
 
-.hero-contacto, .hero-nosotros {
+.sobre-nosotros {
   display: flex;
   align-items: center;
   justify-content: center; }
 
-.hero-contacto, .hero-nosotros {
+.sobre-nosotros {
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -47,7 +47,7 @@ header {
       header .navbar .nav-link:hover {
         color: #931A25; }
 
-.hero-contacto, .hero-nosotros {
+.sobre-nosotros {
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -68,7 +68,7 @@ footer {
     text-align: center;
     font-weight: bold; }
 
-.hero-contacto, .hero-nosotros {
+.sobre-nosotros {
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -140,115 +140,62 @@ footer {
         background-color: #9f905a;
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
 
-.hero-contacto, .hero-nosotros {
+.sobre-nosotros {
   display: flex;
   align-items: center;
   justify-content: center; }
 
-.hero-contacto {
-  text-align: center;
+.productos {
+  background-image: url(../../img/productos-back.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%; }
+  .productos .descripcion {
+    margin-left: 40px;
+    padding: 50px;
+    max-width: 50%;
+    max-height: 50%;
+    background-color: rgba(240, 248, 255, 0.425); }
+    .productos .descripcion p {
+      font-size: 1rem;
+      margin: 0;
+      color: #353434; }
+
+.sobre-nosotros {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.sobre-nosotros {
   flex-direction: column;
-  height: 60vh;
   width: 100%;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(../../img/contactohsection.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.432)), url(../../img/sobre-nosotros.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed; }
-  .hero-contacto h1 {
-    font-size: 70px;
-    margin: 30px;
+  .sobre-nosotros .descripcion {
     text-align: center;
-    color: rgba(172, 149, 67, 0.912);
-    text-shadow: 1px 1px 4px #111; }
-
-section p {
-  font-size: 50px;
-  margin: 60px;
-  padding: 60px;
-  text-align: center;
-  color: #353434; }
-
-section .formulario {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  section .formulario form {
-    width: 600px;
-    min-width: 300px;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 30px;
-    font-size: large;
-    background-color: #2f34352c; }
-    section .formulario form input {
-      display: block;
-      margin: auto;
-      margin-bottom: 10px;
-      height: 40px;
-      width: 75%;
-      padding-left: 20px;
+    align-self: flex-start;
+    margin: 60px;
+    padding: 30px;
+    max-width: 50%;
+    max-height: 50%;
+    background-color: rgba(240, 248, 255, 0.733); }
+    .sobre-nosotros .descripcion h2 {
+      font-size: 2.5rem;
+      margin: 10px;
       color: #353434;
-      border: 2px solid;
-      border-radius: 2px;
-      background-color: transparent;
-      border-top-left-radius: 10px;
-      border-bottom-right-radius: 10px;
-      font-size: 1rem;
-      outline: none; }
-    section .formulario form .form-boton {
-      margin-bottom: 10px;
-      background-color: rgba(128, 128, 128, 0.412); }
-      section .formulario form .form-boton:hover {
-        background-color: #9f905a;
-        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
-    section .formulario form textarea {
-      display: block;
-      margin: auto;
-      margin-top: 20px;
-      margin-bottom: 20px;
-      height: 180px;
-      width: 75%;
-      padding-left: 10px;
-      color: #353434;
-      border: 2px solid;
-      border-radius: 2px;
-      background-color: transparent;
-      border-top-left-radius: 10px;
-      border-bottom-right-radius: 10px;
-      font-size: 1rem;
-      outline: none;
-      resize: none; }
+      border-bottom: 1px solid black; }
+    .sobre-nosotros .descripcion p {
+      font-size: 1.2rem;
+      text-align: left;
+      margin: 10px auto;
+      padding: 30px; }
 
-.hero-contacto, .hero-nosotros {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-.hero-nosotros {
-  text-align: center;
-  flex-direction: column;
-  height: 65vh;
-  width: 100%;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.2)), url(../../img/sobre-nosotros.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom; }
-
-.nosotros-parrafo h2 {
-  font-size: 3rem;
-  text-align: center;
-  margin: 10px;
-  color: #353434;
-  border-bottom: 1px solid black; }
-
-.nosotros-parrafo p {
-  font-size: 1.2rem;
-  text-align: left;
-  margin: 10px auto;
-  padding: 30px; }
-
-.hero-contacto, .hero-nosotros {
+.sobre-nosotros {
   display: flex;
   align-items: center;
   justify-content: center; }

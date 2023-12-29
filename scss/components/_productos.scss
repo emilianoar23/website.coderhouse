@@ -1,91 +1,22 @@
 @import "../base/variables";
 
-.hero-contacto {
-        @extend %flex;
-        text-align: center;
-        flex-direction: column;
-        height: 60vh;
-        width: 100%;
-        background-image: linear-gradient(
-            0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.200),
-        ),url(../../img/contactohsection.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        h1 {
-            font-size: nth($font-size, 5);
-            margin: 30px;
-            text-align: center;
-            color: $color-hero-letra;
-            text-shadow: 1px 1px 4px $color-hero-sombra;
-        }
-}
-section {
-    p {
-        font-size: nth($font-size, 3);
-        margin: 60px;
-        padding: 60px;
-        text-align: center;
-        color: $color-letra;  
-    }
-    .formulario {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        form {
-            width: 600px;
-            min-width: 300px;
-            padding: 20px;
-            border-radius: 10px;
-            margin: 30px;
-            font-size: large;
-            background-color: $color-fondo;
-            input {
-                display: block;
-                margin: auto;
-                margin-bottom: 10px;
-                height: 40px;
-                width: 75%;
-                padding-left: 20px;
-                color: $color-letra;
-                border: 2px solid;
-                border-radius: 2px;
-                background-color: transparent;
-                border-top-left-radius: 10px;
-                border-bottom-right-radius: 10px;
-                font-size: 1rem;
-                outline: none;
-            }
-                .form-boton {
-                    margin-bottom: 10px;
-                    background-color: $color-form-boton;
-                    &:hover {
-                        background-color: $color-boton-fondo;
-                        box-shadow: 2px 2px 10px $color-boton-sombra;
-                        }
-                }
-                
-        textarea {
-            display: block;
-            margin: auto;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            height: 180px;
-            width: 75%;
-            padding-left: 10px;
-            color: $color-letra;
-            border: 2px solid;
-            border-radius: 2px;
-            background-color: transparent;
-            border-top-left-radius: 10px;
-            border-bottom-right-radius: 10px;
+.productos {
+    background-image: url(../../img/productos-back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    .descripcion {
+        margin-left: 40px;
+        padding: 50px;
+        max-width: 50%;
+        max-height: 50%;
+        background-color: rgba(240, 248, 255, 0.425);
+        p {
             font-size: 1rem;
-            outline: none;
-            resize: none;   
-            }
+            margin: 0;
+            color: $font-color-dark;
         }
     }
 }
