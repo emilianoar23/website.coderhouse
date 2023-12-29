@@ -1,6 +1,6 @@
 @import "../base/variables";
 
-.hero-desarrollo {
+.hero-nosotros {
     @extend %flex;
     text-align: center;
     flex-direction: column;
@@ -14,23 +14,25 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+    }
+
+.nosotros-parrafo {
     h2 {
         font-size: 3rem;
         text-align: center;
-        color: $font-color;
-        text-shadow: 1px 1px 4px $color-hero-sombra;
+        margin: 30px;
+        color: $font-color-dark;
+        border-bottom: 1px solid black;
+        border-bottom-min-width: 5px;
     }
-}
-
-section {
-    .desarollo-parrafo {
+    .nosotros-parrafo {
         @extend %flex;
         margin: 180px 0 160px;
         padding: 20px;
         img {
         width: 25%;
         }
-        h3 {
+        p {
             font-size: 35px;
             margin: 40px;
             color: $color-letra;
