@@ -15,12 +15,12 @@ body {
 ::selection {
   background-color: #80808060; }
 
-.hero-contacto, .hero-nosotros, .nosotros-parrafo .nosotros-parrafo {
+.hero-contacto, .hero-nosotros {
   display: flex;
   align-items: center;
   justify-content: center; }
 
-.hero-contacto, .hero-nosotros, .nosotros-parrafo .nosotros-parrafo {
+.hero-contacto, .hero-nosotros {
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -47,7 +47,7 @@ header {
       header .navbar .nav-link:hover {
         color: #931A25; }
 
-.hero-contacto, .hero-nosotros, .nosotros-parrafo .nosotros-parrafo {
+.hero-contacto, .hero-nosotros {
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -68,7 +68,7 @@ footer {
     text-align: center;
     font-weight: bold; }
 
-.hero-contacto, .hero-nosotros, .nosotros-parrafo .nosotros-parrafo {
+.hero-contacto, .hero-nosotros {
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -140,7 +140,7 @@ footer {
         background-color: #9f905a;
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
 
-.hero-contacto, .hero-nosotros, .nosotros-parrafo .nosotros-parrafo {
+.hero-contacto, .hero-nosotros {
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -220,7 +220,7 @@ section .formulario {
       outline: none;
       resize: none; }
 
-.hero-contacto, .hero-nosotros, .nosotros-parrafo .nosotros-parrafo {
+.hero-contacto, .hero-nosotros {
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -238,22 +238,17 @@ section .formulario {
 .nosotros-parrafo h2 {
   font-size: 3rem;
   text-align: center;
-  margin: 30px;
+  margin: 10px;
   color: #353434;
-  border-bottom: 1px solid black;
-  border-bottom-min-width: 5px; }
+  border-bottom: 1px solid black; }
 
-.nosotros-parrafo .nosotros-parrafo {
-  margin: 180px 0 160px;
-  padding: 20px; }
-  .nosotros-parrafo .nosotros-parrafo img {
-    width: 25%; }
-  .nosotros-parrafo .nosotros-parrafo p {
-    font-size: 35px;
-    margin: 40px;
-    color: #353434; }
+.nosotros-parrafo p {
+  font-size: 1.2rem;
+  text-align: left;
+  margin: 10px auto;
+  padding: 30px; }
 
-.hero-contacto, .hero-nosotros, .nosotros-parrafo .nosotros-parrafo {
+.hero-contacto, .hero-nosotros {
   display: flex;
   align-items: center;
   justify-content: center; }
