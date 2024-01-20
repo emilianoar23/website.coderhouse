@@ -4,10 +4,20 @@
     height: 65vh;
     margin: 10px 0px;
 }
+.novedades {
+    text-align: center;
+    h2 {
+        font-size: 3rem;
+        background: -webkit-linear-gradient(90deg, rgba(147,26,37,1) 35%, rgb(71, 28, 172) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+}
 .servicios {
     display: flex;
     justify-content: space-around;
-    .cards {            
+    .cards {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -17,7 +27,7 @@
         margin: 50px 10px;
         border-radius: 5px;
         background-color: $bg-color;
-        h2 {
+        h3 {
             font-size: 1.2rem;
             font-weight: bold;
             text-align: center;
